@@ -1,0 +1,17 @@
+{
+  "name": "lineserver",
+  "version": "0.0.1",
+  "description": "serves large and small \\n delimited txt files provided as argument at server start",
+  "main": "server.js",
+  "dependencies": {
+    "leveldown": "^1.3.0",
+    "levelup": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Chris Davies",
+  "license": "MIT"
+}

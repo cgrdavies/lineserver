@@ -1,0 +1,17 @@
+#################
+## Sublime Text
+#################
+
+*.sublime-project
+*.sublime-workspace
+
+# Mac crap
+.DS_Store
+
+#################
+## Directories
+#################
+
+dev/
+cms/core/config/
+node_modules/

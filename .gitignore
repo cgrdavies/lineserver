@@ -8,10 +8,12 @@
 # Mac crap
 .DS_Store
 
+# Test Data
+test.txt
+
 #################
 ## Directories
 #################
 
-dev/
-cms/core/config/
+mydb/
 node_modules/

@@ -13,5 +13,13 @@
     "start": "node server.js"
   },
   "author": "Chris Davies",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgrdavies/lineserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cgrdavies/lineserver/issues"
+  },
+  "homepage": "https://github.com/cgrdavies/lineserver#readme"
 }

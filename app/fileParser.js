@@ -1,6 +1,6 @@
-var fs = require('fs');
-var fileName = process.argv[2];
-var stream = require('stream')
+var fs = require('fs'),
+    fileName = process.argv[2],
+    stream = require('stream')
 
 function fileParser(lineNumber, callback) {
     var liner = new stream.Transform( { objectMode: true } )
@@ -23,9 +23,10 @@ function fileParser(lineNumber, callback) {
     }
 
     console.log('using fileparser')
-    var source = fs.createReadStream(fileName);
-    var index = 0; 
-    source.pipe(liner);
+    var source = fs.createReadStream(fileName)
+    source.pipe(liner)
+
+    var index = 0
     liner.on('readable', function() {
         var line
         while (line = liner.read()) {
@@ -41,9 +42,9 @@ function fileParser(lineNumber, callback) {
 
     liner.on('end', function(success) {
         if(!success) {
-    	   callback('File end reached without finding line', null);
+    	   callback('File end reached without finding line', null)
         }
-    });
-};
+    })
+}
 
-module.exports = fileParser;
+module.exports = fileParser

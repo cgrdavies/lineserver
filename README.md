@@ -31,11 +31,17 @@ What documentation, websites, papers, etc did you consult in doing this assignme
 --------------------------
 
 Node.js Streams Manual - https://nodejs.org/api/stream.html
+
 Practical Examples of the New Node.js Streams API - https://strongloop.com/strongblog/practical-examples-of-the-new-node-js-streams-api/
+
 Readable, Writable, and Transform Streams in Node.js - http://www.sandersdenardi.com/readable-writable-transform-streams-node/
+
 stream-handbook - https://github.com/substack/stream-handbook
+
 A Comparison Of NoSQL Database Management Systems And Models - https://www.digitalocean.com/community/tutorials/a-comparison-of-nosql-database-management-systems-and-models
+
 Levelup - https://github.com/Level/levelup
+
 LevelDB - http://leveldb.org
 
 What third-party libraries or other tools does the system use? How did you choose each library or framework you used?
